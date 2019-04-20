@@ -178,16 +178,15 @@ p {
   font-size: 4rem;
 }
 .nav a {
+  margin-right: 20px;
+  margin-left: 20px;
   text-decoration: none;
+  text-color: #23293B;
 }
 .nav .navigation {
   display: flex;
-  justify-content: space-around;
   font-size: 1.5rem;
   padding-top: 1.5%;
-}
-.nav .navigation a {
-  background: red;
 }
 footer {
   color: #22283B;
