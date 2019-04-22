@@ -76,17 +76,17 @@
       }
 
       .btn {
-        .button(100px, center, 5px)
+        .button(100px, center, 5px);
         @media @phone {
-          .button(70px, 100%);
+          .button(100%, center, 5px);
         }
       }
       .btn:hover {
         background: @sea-shell;
-        width: @width; 
+        width: 100%; 
         display: flex;
-        justify-content: @justify;
-        border-radius: @rad;
+        justify-content: center;
+        border-radius: 5px;
         color: @btn-bg-color;
         padding: 2%;
         font-size: 2rem;
