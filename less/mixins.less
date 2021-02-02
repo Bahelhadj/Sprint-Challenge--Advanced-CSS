@@ -1,1 +1,14 @@
 // Mixins Here
+.roundborder {
+    border-radius: 5px;
+}
+.button (@width, @justify, @rad) {
+    background: @btn-bg-color;
+    width: @width; 
+    display: flex;
+    justify-content: @justify;
+    border-radius: @rad;
+    color: @sea-shell;
+    padding: 2%;
+    font-size: 2rem; 
+}
